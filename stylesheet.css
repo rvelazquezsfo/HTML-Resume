@@ -55,25 +55,62 @@ a:hover {
 }
 
 .left {
-	/*position: relative;
+	position: relative;
 	float: left;
 	margin-top: 50px;
 	width: 10%;
-	height: 400px;
-	background-color: #B9D7D9;
-	margin-bottom: 10px;*/
+	height: 225px;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	font-size: 14px;
 }
 
-.right {
+.Resume_HTML_right {
 	position: relative;
 	float: right;
 	margin-top: 50px;
 	width: 88%;
-	height: 1250px;
+	height: 350px;
 	background-color: #DCDCDC;
 	margin-bottom: 10px;
 	margin-right: 15px;
 }
+
+.Experience_right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 610px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+.SpokenLanguages_right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 150px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+
+
+.Education_right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 150px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
 
 #footer {
 	z-index: 1;
@@ -93,3 +130,134 @@ a:hover {
 	position: relative;
 	padding-top: 15px;
 }
+
+
+
+
+/*Navbar*/
+.Navbar {
+    list-style-type: none;
+    width: 310px;
+    background-color: #f1f1f1;
+    font-size: 10px;
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+/*.Navbarcontent {
+    float: left;
+}*/
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* Mobile Phone Portrait */
+
+@media screen and (max-width: 525px)
+
+  {
+  	#header {
+  		padding-bottom: 5px;
+  		z-index: 1;
+		position: fixed;
+		width: 97.5%;
+		margin-top: -20px;
+		height: 60px;
+		background-color: #A9A9A9;
+		margin-bottom: 10px;
+		margin-right: 15px;
+			}
+
+	#email{
+  		float: left;
+		margin-top: -20px;  
+		padding-left: 5px; 		
+		margin-right: 5px;
+		padding-top: 5px;
+		font-size: 12px;
+		font-family: Verdana, sans-serif;
+		color: #ffffff;
+  			}
+
+
+  	#footer {
+		Width: 100%;
+		bottom: 0;
+		padding-top: -5px;
+		padding-bottom: -5px;
+		position: static;
+		height: 60px;
+		background-color: #A9A9A9;
+		clear: both;
+		font-family: Verdana, sans-serif;
+		font-size: 14px;
+		text-align: center;
+		color: #ffffff;
+  		  	}
+
+
+.Resume_HTML_right {
+	position: relative;
+	float: right;
+	margin-top: -95px;
+	width: 88%;
+	height: 550px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+.Experience_right {
+	position: relative;
+	float: right;
+	margin-top: -95px;
+	width: 88%;
+	height: 1050px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+.SpokenLanguages_right {
+	position: relative;
+	float: right;
+	margin-top: -95px;
+	width: 88%;
+	height: 160px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+
+
+.Education_right {
+	position: relative;
+	float: right;
+	margin-top: -95px;
+	width: 88%;
+	height: 160px;
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+
+ }
